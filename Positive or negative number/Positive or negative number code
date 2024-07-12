@@ -1,0 +1,14 @@
+# user input of number
+a = float(input("Enter a Number: "))
+
+# defining a function to determinie the number is positive or negative
+def is_positive_negative(a):
+    if a == 0:
+        print(f"{a} is neither positive nor negative")
+    elif a < 0:
+        print(f"{a} is negative number")
+    else:
+        print(f"{a} is positive number")
+
+# calling function in main menu    
+is_positive_negative(a)
