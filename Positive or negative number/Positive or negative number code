@@ -12,3 +12,5 @@ def is_positive_negative(a):
 
 # calling function in main menu    
 is_positive_negative(a)
+
+''' Follow on Instagram @tech_verse.24 '''
