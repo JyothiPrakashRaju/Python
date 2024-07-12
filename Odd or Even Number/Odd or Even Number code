@@ -1,0 +1,17 @@
+# Method 1
+
+a = int(input("Enter a Number: "))
+if (a & 1) == 0:
+    print(f"{a} is an even number")
+elif (a & 1) == 1:
+    print(f"{a} is an odd number")
+
+
+# Method 2
+
+a = int(input("Enter a Number: "))
+if a % 2 == 0:
+    print(f"{a} is an even number")
+else:
+    print(f"{a} is an odd number")
+
