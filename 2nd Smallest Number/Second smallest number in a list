@@ -17,3 +17,5 @@ a = list(map(int, input("Enter the elements with space ").split()))
 #Elements can be "n size i.e size = n"
 a.sort()
 print(f"The second smallest element in the list: {a[1]}")
+
+''' Follow on Instagram @tech_verse.24 '''
