@@ -1,0 +1,9 @@
+# find the sum of numbers in a given Range of numbers
+start = int(input("Enter the number: "))
+stop = int(input("Enter the number: "))
+
+sum = 0
+
+for i in range (start, stop+1):
+    sum += i
+print(f"sum of numbers from {start} to {stop} = {sum}")
