@@ -5,3 +5,5 @@ def sqrt_of_num(i):
     return "These are Square roots of Even Numbers"
 sr = int(input())
 print(sqrt_of_num(sr))
+
+''' Follow on Instagram @tech_verse.24 '''
